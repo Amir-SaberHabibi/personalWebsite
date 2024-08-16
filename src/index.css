@@ -23,6 +23,11 @@
   }
 }
 
+.logo-margin-left {
+  margin-left: 1px; /* Adjust this value as needed */
+}
+
+
 .tech-icon {
   transition: background-color 0.3s, color 0.3s, transform 0.3s;
 }
