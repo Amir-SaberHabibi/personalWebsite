@@ -1,3 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root{
+  font-family: "Lexend", sans-serif;
+}
+
+.cursor {
+  display: inline-block;
+  animation: blink 0.75s step-end infinite;
+}
+
+@keyframes blink {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
+
+.tech-icon {
+  transition: background-color 0.3s, color 0.3s, transform 0.3s;
+}
+
+.tech-icon:hover {
+  background-color: #6d28d9;
+  color: #ffffff; 
+  transform: scale(1.1); 
+}
+
+
+.social-icon {
+  color: #fff; /* Default color for icons */
+  transition: color 0.3s ease, transform 0.15s ease; /* Smooth transition */
+}
+
+.social-icon:hover {
+  color: #9d6ee8; /* Color on hover */
+  transform: scale(1.5); /* Slightly enlarge the icon on hover */
+}
