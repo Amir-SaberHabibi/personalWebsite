@@ -13,7 +13,7 @@ export const EXPERIENCES = [
     title: "AI-Driven Decision Models in SE",
     company: "Uni. of Guilan",
     description: `This master’s project explores software ecosystems by analyzing common software package combinations, technologies, and code idioms. It results in a context-aware recommender system that integrates retrieval-augmented generation (RAG) with a knowledge graph design.`,
-    technologies: ["Mining Software Repos", "NLP", "Knowledge Graphs", "LLMs", "Software Ecosystem"],
+    technologies: ["Mining Software Repos", "NLP", "Knowledge Graphs", "LLMs", "Decision-Making", "Software Ecosystem"],
   },
   {
     year: "2022 - 2023",
