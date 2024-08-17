@@ -1,7 +1,7 @@
 import project1 from "../assets/projects/metaml_logo.jpg";
 import project2 from "../assets/projects/graph.jpg";
 import project3 from "../assets/projects/simplex_bg.png";
-import project4 from "../assets/projects/project-4.jpg";
+// import project4 from "../assets/projects/project-4.jpg";
 
 export const HERO_CONTENT = `I am an enthusiast in machine learning, deep learning, generative AI, and natural language processing. My primary interest lies in information retrieval using advanced natural language processing methodologies, where I explore how these techniques can enhance understanding and extraction of information. I have substantial experience working with large language models (LLMs), leveraging their capabilities to tackle complex problems across various domains, including software ecosystems analysis. My work involves applying LLMs to improve data processing, derive insights, and contribute to innovative solutions in these fields.`
 export const ABOUT_TEXT = `I have a B.Sc. in Computer Science at the University of Guilan, Iran. I also had the previlage to act as an Undergraduate Teaching Assistant and Research Assistant, working in diverse areas of AI research, designing and developing pipelines based on Proof of Concept (POC) research methodology. I am commited to dedicating myself fully to the things I prioritize in my life, and I won't cut back until I achieve my dreams and reward myself.`;
@@ -13,7 +13,7 @@ export const EXPERIENCES = [
     title: "AI-Driven Decision Models in SE",
     company: "Uni. of Guilan",
     description: `This master’s project explores software ecosystems by analyzing common software package combinations, technologies, and code idioms. It results in a context-aware recommender system that integrates retrieval-augmented generation (RAG) with a knowledge graph design.`,
-    technologies: ["NLP", "LLMs", "Knowledge Graphs", "Software Ecosystem"],
+    technologies: ["Mining Software Repos", "NLP", "LLMs", "Knowledge Graphs", "Software Ecosystem"],
   },
   {
     year: "2022 - 2023",

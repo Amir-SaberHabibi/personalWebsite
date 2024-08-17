@@ -1,5 +1,4 @@
-import { RiReactjsLine } from "react-icons/ri";
-import { SiPython, SiPandas, SiScikitlearn, SiHuggingface, SiTensorflow, SiKeras, SiNumpy, SiPytorch } from "react-icons/si";
+import { SiGit, SiPython, SiPandas, SiScikitlearn, SiHuggingface, SiTensorflow, SiKeras, SiNumpy, SiPytorch } from "react-icons/si";
 import { motion } from "framer-motion";
 
 const iconVariants = (duration) => ({
@@ -17,8 +16,8 @@ const iconVariants = (duration) => ({
 
 const Technologies = () => {
   const technologies = [
-    { icon: <RiReactjsLine className="text-7xl text-cyan-400" />, name: "React" },
     { icon: <SiPython className="text-7xl text-yellow-500" />, name: "Python" },
+    { icon: <SiGit className="text-7xl text-orange-600" />, name: "Git" },
     { icon: <SiPandas className="text-7xl text-blue-500" />, name: "Pandas" },
     { icon: <SiNumpy className="text-7xl text-blue-400" />, name: "NumPy" },
     { icon: <SiHuggingface className="text-7xl text-yellow-400" />, name: "Transformers" },
