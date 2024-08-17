@@ -21,7 +21,7 @@ const Hero = () => {
               variants={container(0)}
               initial="hidden"
               animate="visible"
-              className="pb-4 text-6xl font-thin tracking-tight lg:mt-0 lg:text-7xl"> {/* Reduced padding-bottom */}
+              className="pb-2 text-6xl font-thin tracking-tight lg:mt-[-25px] lg:text-7xl"> {/* Reduced padding-bottom */}
               Amir Saberhabibi
             </motion.h1>
             <motion.span   
@@ -39,14 +39,27 @@ const Hero = () => {
               animate="visible"
               className="mt-4 flex flex-wrap gap-2"
             >
-            <span className="px-1.5 py-1 bg-gradient-to-r from-pink-900 via-slate-800 to-purple-900 bg-opacity-70 text-white text-xs font-medium rounded-md">Machine Learning</span>
-            <span className="px-1.5 py-1 bg-gradient-to-r from-pink-900 via-slate-800 to-purple-900 bg-opacity-70 text-white text-xs font-medium rounded-md">Natural Language Processing</span>
-            <span className="px-1.5 py-1 bg-gradient-to-r from-pink-900 via-slate-800 to-purple-900 bg-opacity-70 text-white text-xs font-medium rounded-md">Generative AI</span>
-            <span className="px-1.5 py-1 bg-gradient-to-r from-pink-900 via-slate-800 to-purple-900 bg-opacity-70 text-white text-xs font-medium rounded-md">Information Retrieval</span>
-            <span className="px-1.5 py-1 bg-gradient-to-r from-pink-900 via-slate-800 to-purple-900 bg-opacity-70 text-white text-xs font-medium rounded-md">Intent Detection</span>
-            <span className="px-1.5 py-1 bg-gradient-to-r from-pink-900 via-slate-800 to-purple-900 bg-opacity-70 text-white text-xs font-medium rounded-md">Large Language Models</span>
-            <span className="px-1.5 py-1 bg-gradient-to-r from-pink-900 via-slate-800 to-purple-900 bg-opacity-70 text-white text-xs font-medium rounded-md">Software Engineering</span>
-
+              <span className="px-1.5 py-1 bg-gradient-to-r from-pink-900 via-slate-800 to-purple-900 bg-opacity-70 text-white text-xs font-medium rounded-md transition-transform transform hover:scale-105 hover:bg-gradient-to-r hover:from-pink-700 hover:via-slate-600 hover:to-purple-700">
+                Machine Learning
+              </span>
+              <span className="px-1.5 py-1 bg-gradient-to-r from-pink-900 via-slate-800 to-purple-900 bg-opacity-70 text-white text-xs font-medium rounded-md transition-transform transform hover:scale-105 hover:bg-gradient-to-r hover:from-pink-700 hover:via-slate-600 hover:to-purple-700">
+                Natural Language Processing
+              </span>
+              <span className="px-1.5 py-1 bg-gradient-to-r from-pink-900 via-slate-800 to-purple-900 bg-opacity-70 text-white text-xs font-medium rounded-md transition-transform transform hover:scale-105 hover:bg-gradient-to-r hover:from-pink-700 hover:via-slate-600 hover:to-purple-700">
+                Generative AI
+              </span>
+              <span className="px-1.5 py-1 bg-gradient-to-r from-pink-900 via-slate-800 to-purple-900 bg-opacity-70 text-white text-xs font-medium rounded-md transition-transform transform hover:scale-105 hover:bg-gradient-to-r hover:from-pink-700 hover:via-slate-600 hover:to-purple-700">
+                Information Retrieval
+              </span>
+              <span className="px-1.5 py-1 bg-gradient-to-r from-pink-900 via-slate-800 to-purple-900 bg-opacity-70 text-white text-xs font-medium rounded-md transition-transform transform hover:scale-105 hover:bg-gradient-to-r hover:from-pink-700 hover:via-slate-600 hover:to-purple-700">
+                Intent Detection
+              </span>
+              <span className="px-1.5 py-1 bg-gradient-to-r from-pink-900 via-slate-800 to-purple-900 bg-opacity-70 text-white text-xs font-medium rounded-md transition-transform transform hover:scale-105 hover:bg-gradient-to-r hover:from-pink-700 hover:via-slate-600 hover:to-purple-700">
+                Large Language Models
+              </span>
+              <span className="px-1.5 py-1 bg-gradient-to-r from-pink-900 via-slate-800 to-purple-900 bg-opacity-70 text-white text-xs font-medium rounded-md transition-transform transform hover:scale-105 hover:bg-gradient-to-r hover:from-pink-700 hover:via-slate-600 hover:to-purple-700">
+                Software Engineering
+              </span>
             </motion.div>
 
             <motion.p
@@ -63,7 +76,7 @@ const Hero = () => {
             <motion.img 
                 initial={{x: 100, opacity: 0}}
                 animate={{x: 0, opacity: 1}}
-                transition={{duration: 0.1, delay: 0.25 }}
+                transition={{duration: 1, delay: 0.25 }}
                 src={profilePic} 
                 alt="Amir Saberhabibi" 
                 className="profile-pic w-[200px] h-[200px] lg:w-[400px] lg:h-[400px] object-cover rounded-lg border-10 border-neutral-900 mb-5"
