@@ -42,6 +42,7 @@ const Hero = () => {
             <span className="px-1.5 py-1 bg-gradient-to-r from-pink-900 via-slate-800 to-purple-900 bg-opacity-70 text-white text-xs font-medium rounded-md">Machine Learning</span>
             <span className="px-1.5 py-1 bg-gradient-to-r from-pink-900 via-slate-800 to-purple-900 bg-opacity-70 text-white text-xs font-medium rounded-md">Natural Language Processing</span>
             <span className="px-1.5 py-1 bg-gradient-to-r from-pink-900 via-slate-800 to-purple-900 bg-opacity-70 text-white text-xs font-medium rounded-md">Generative AI</span>
+            <span className="px-1.5 py-1 bg-gradient-to-r from-pink-900 via-slate-800 to-purple-900 bg-opacity-70 text-white text-xs font-medium rounded-md">Information Retrieval</span>
             <span className="px-1.5 py-1 bg-gradient-to-r from-pink-900 via-slate-800 to-purple-900 bg-opacity-70 text-white text-xs font-medium rounded-md">Intent Detection</span>
             <span className="px-1.5 py-1 bg-gradient-to-r from-pink-900 via-slate-800 to-purple-900 bg-opacity-70 text-white text-xs font-medium rounded-md">Large Language Models</span>
             <span className="px-1.5 py-1 bg-gradient-to-r from-pink-900 via-slate-800 to-purple-900 bg-opacity-70 text-white text-xs font-medium rounded-md">Software Analysis</span>
