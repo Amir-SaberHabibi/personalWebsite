@@ -1,6 +1,6 @@
 import logo from "../assets/logo2.png";
 import cvDoc from "../assets/cv.pdf"; // Import your CV PDF
-import { FaLinkedin, FaGithub, FaTwitter, FaInstagram, FaRegFileAlt } from "react-icons/fa"; // Use FaRegFileAlt for a CV icon
+import { FaLinkedin, FaGithub, FaEnvelope, FaInstagram, FaRegFileAlt } from "react-icons/fa";
 import '../index.css';
 
 const Navbar = () => {
@@ -23,11 +23,11 @@ const Navbar = () => {
                className="social-icon">
                <FaGithub />
             </a>
-            <a href="https://x.com/amiiiirsbr" 
+            <a href="mailto:amiirsbr@gmail.com" 
                target="_blank" 
                rel="noopener noreferrer" 
                className="social-icon">
-               <FaTwitter />
+               <FaEnvelope />
             </a>
             <a href="https://www.instagram.com/amirsaber1" 
                target="_blank" 
@@ -35,7 +35,6 @@ const Navbar = () => {
                className="social-icon">
                <FaInstagram />
             </a>
-            {/* CV Download Link with a more CV-like icon */}
             <a href={cvDoc} 
                download="Amir_Saberhabibi_CV.pdf" 
                className="social-icon">

@@ -12,7 +12,7 @@ export const EXPERIENCES = [
     role: "Research Assistant",
     title: "AI-Driven Decision Models in SE",
     company: "Uni. of Guilan",
-    description: `This master’s project explores software ecosystems by analyzing common software package combinations, technologies, and code idioms. It results in a context-aware recommender system that integrates retrieval-augmented generation (RAG) with a knowledge graph design.`,
+    description: `This master’s project explores software ecosystems by analyzing common software package combinations, technologies, and code idioms. It results in a context-aware software package recommender system that functions, using an integration of retrieval-augmented generation (RAG) and a knowledge graph design.`,
     technologies: ["Mining Software Repositories","Knowledge Graphs", "NLP", "LLMs"],
   },
   {
@@ -28,7 +28,7 @@ export const EXPERIENCES = [
     role: " Teaching Assistant",
     title: "Database Design (SQL) Course Assistantship",
     company: "Uni. of Guilan",
-    description: `Provided guidance for students to design ERD and SQL Querying. (Fundamentals and practical level)`,
+    description: `Provided guidance for students to design ERD and SQL Querying (Fundamentals and practical level).`,
     technologies: ["Database", "SQL", "ERD", "Teaching"],
   },
   {
