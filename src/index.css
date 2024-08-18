@@ -48,3 +48,64 @@
   color: #9d6ee8; /* Color on hover */
   transform: scale(1.5); /* Slightly enlarge the icon on hover */
 }
+
+.highlight-link h6 {
+  position: relative;
+  display: inline-block;
+  transition: color 0.3s ease;
+}
+
+.highlight-link h6::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #9d6ee8; /* Purple highlight color */
+  transform: scaleX(0);
+  transform-origin: bottom right;
+  transition: transform 0.3s ease;
+}
+
+.highlight-link:hover h6::before {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.highlight-link:hover h6 {
+  color: #9d6ee8; /* Purple text color on hover */
+}
+
+/* Scrollbar Track (Background) */
+::-webkit-scrollbar-track {
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 1) 100%); /* Gradient black background for depth */
+  border-radius: 10px; /* Rounded corners for the track */
+  margin: 5px; /* Add space around the scrollbar for a floating effect */
+}
+
+/* Scrollbar Thumb (Scroller) */
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, rgba(109, 40, 217, 0.9), rgba(141, 103, 232, 1)); /* Gradient dark purple scroller */
+  border-radius: 10px; /* Rounded corners */
+  border: 2px solid rgba(0, 0, 0, 0.8); /* Thin border for contrast against the track */
+  box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.5); /* Inner shadow for a 3D effect */
+}
+
+/* Scrollbar Thumb on Hover */
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(180deg, rgba(109, 40, 217, 1), rgba(141, 103, 232, 1)); /* Brighter gradient on hover */
+  border: 2px solid rgba(0, 0, 0, 1); /* Solid border for a sharper look */
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.7); /* Stronger inner shadow */
+}
+
+/* Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(64, 46, 106, 0.9) rgba(0, 0, 0, 1); /* Matching gradient and black background */
+}
+
+/* Optional: Scrollbar Corner (for elements with both vertical and horizontal scrollbars) */
+::-webkit-scrollbar-corner {
+  background: black; /* Consistent black corner */
+}

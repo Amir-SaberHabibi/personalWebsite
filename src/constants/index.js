@@ -46,17 +46,20 @@ export const PROJECTS = [
   {
     title: "MetaML",
     image: project1,
+    link: "https://metaml.streamlit.app/",
     description:"a Metaheuristic-based neural network optimization tool for training A.N.Ns, using different optimization algorithms (Backpropagation, Genetic Algorithm, and Particle Swarm Optimization). The results could be analyzed to retrieve insights using the Llama3-70b Large Language Model.",
     technologies: ["Deep Learning", "Machine Learning", "Neural Networks", "Optimization"],
   },
   {
     title: "NTFA",
     image: project2,
+    link: "https://ntfaproject.streamlit.app/",
     description:"A Graph-based Integration of Network Traffic Flow Analysis (Case Study on Unicauca Network Flows Dataset). This project aims to provide tools for better network analysis and visualization using graph-based algorithms (currently Dijkstra)",
     technologies: ["Graph Algorithms", "Data Science", "NetworkX", "Shortest Path Algorithms"],
   },
   {
     title: "OPT-Simplex",
+    link: "https://github.com/Amir-SaberHabibi/OPT-Simplex",
     image: project3,
     description:
       "a Python-based project designed to solve linear programming problems using the Simplex optimization method. This project provides a comprehensive implementation that supports both maximization and minimization problems, making it versatile for various optimization needs. ",
