@@ -1,5 +1,5 @@
 import logo from "../assets/logo2.png";
-import cvDoc from "../assets/cv.pdf"; // Import your CV PDF
+import cvDoc from "../assets/cv.pdf"; 
 import { FaLinkedin, FaGithub, FaEnvelope, FaInstagram, FaRegFileAlt } from "react-icons/fa";
 import '../index.css';
 
