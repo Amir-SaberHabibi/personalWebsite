@@ -66,7 +66,7 @@ const Hero = () => {
               variants={container(0.4)}
               initial="hidden"
               animate="visible" 
-              className="my-2 max-w-xl py-4 font-light"> {/* Adjusted padding-top */}
+              className="my-0 max-w-xl py-4 font-light" style={{ fontSize: '15px' }}>
               {HERO_CONTENT}
             </motion.p>
           </div>
