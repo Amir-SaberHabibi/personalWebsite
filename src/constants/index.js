@@ -60,7 +60,7 @@ export const PROJECTS = [
   {
     title: "Word Embedding Explorer",
     image: project4,
-    link: "word-embedding-explorer.streamlit.app/",
+    link: "https://word-embedding-explorer.streamlit.app/",
     description:"An interactive Streamlit web app for exploring and visualizing word embeddings using pre-trained models like GloVe, Word2Vec, and FastText. Users can intuitively search for words and view their relationships in interactive plots. ",
     technologies: ["Word Embedding", "Vectorization", "Word Analogy", "NLP"],
   },
