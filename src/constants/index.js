@@ -51,18 +51,18 @@ export const PROJECTS = [
     technologies: ["Deep Learning", "Machine Learning", "Neural Networks", "Optimization"],
   },
   {
-    title: "NTFA",
-    image: project2,
-    link: "https://ntfaproject.streamlit.app/",
-    description:"A Graph-based Integration of Network Traffic Flow Analysis (Case Study on Unicauca Network Flows Dataset). This project aims to provide tools for better network analysis and visualization using graph-based algorithms (currently Dijkstra)",
-    technologies: ["Graph Algorithms", "Data Science", "NetworkX", "Shortest Path Algorithms"],
-  },
-  {
     title: "Word Embedding Explorer",
     image: project4,
     link: "https://word-embedding-explorer.streamlit.app/",
     description:"An interactive Streamlit web app for exploring and visualizing word embeddings using pre-trained models like GloVe, Word2Vec, and FastText. Users can intuitively search for words and view their relationships in interactive plots. ",
     technologies: ["Word Embedding", "Vectorization", "Word Analogy", "NLP"],
+  },
+  {
+    title: "Network Traffic Flow Analysis",
+    image: project2,
+    link: "https://ntfaproject.streamlit.app/",
+    description:"A Graph-based Integration of Network Traffic Flow Analysis (Case Study on Unicauca Network Flows Dataset). This project aims to provide tools for better network analysis and visualization using graph-based algorithms (currently Dijkstra)",
+    technologies: ["Graph Algorithms", "Data Science", "NetworkX", "Shortest Path Algorithms"],
   },
   {
     title: "OPT-Simplex",
